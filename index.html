@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body>
+    <div id="data" class="w-2/12 flex flex-col gap-y-6 absolute top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4">
+        <div class="w-full flex justify-between border-b-2 border-black">
+            <label for="birthDate" class="font-semibold">Date of Birth:</label>
+            <input type="date" name="birthDate" id="birthDate">
+        </div>
+        <div class="w-full flex justify-between border-b-2 border-black">
+            <label for="deathAge" class="font-semibold">Age at Death:</label>
+            <input type="number" name="deathAge" id="deathAge" value="90">
+        </div>
+        <button class="w-full font-semibold border-2">Generate</button>
+    </div>
+
+
+    <div class="w-5/12 bg-red-400 hidden flex-col mx-auto" id="calendar">
+        sss
+    </div>
+</body>
+
+</html>
